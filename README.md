@@ -4,7 +4,7 @@ JSHDrawer uses the ContentViewController to create a drawer effect,But the downs
 ![Demo](https://github.com/jiangsihao/JSHDrawer/blob/master/JSHDrawer.gif)
 
 # Adding JSHDrawer to your project
-Download Zip ,then drag and drop JSHDrawerManagerViewController.h and JSHDrawerManagerViewController.m onto your project. Include JSHDrawer wherever you need it with #import "JSHDrawerManagerViewController.h".
+Download Zip ,then drag and drop JSHDrawerManagerViewController.h and JSHDrawerManagerViewController.m onto your project. Include JSHDrawer wherever you need it with `#import "JSHDrawerManagerViewController.h"`
 
 # Usage
 **Initialize a JSHDrawerManagerViewController**
@@ -31,3 +31,4 @@ Download Zip ,then drag and drop JSHDrawerManagerViewController.h and JSHDrawerM
 ```
 [JSHDrawerManagerViewController pushOpenDrawerNotification]; 
 ```
+# [Jian Shu](https://www.jianshu.com/u/5fd033346950)
