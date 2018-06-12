@@ -1,13 +1,13 @@
 # JSHDrawer
-JSHDrawer uses the ContentViewController to create a drawer effect,But the downside is that SideViewController will always be there, even if you can't see it.
+JSHDrawer 使用ContentViewController创建了一个抽屉侧滑效果，集成方便，轻量级。
 
 ![Demo](https://github.com/jiangsihao/JSHDrawer/blob/master/JSHDrawer.gif)
 
-# Adding JSHDrawer to your project
-Download Zip ,then drag and drop JSHDrawerManagerViewController.h and JSHDrawerManagerViewController.m onto your project. Include JSHDrawer wherever you need it with `#import "JSHDrawerManagerViewController.h"`
+# 添加JSHDrawer到工程
+下载Zip，将JSHDrawerManagerViewController.h和JSHDrawerManagerViewController.m文件拖拽进项目，使用时导入头文件即可。
 
-# Usage
-**Initialize a JSHDrawerManagerViewController**
+# 用法
+**初始化JSHDrawerManagerViewController**
 
 ```
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -21,14 +21,14 @@ Download Zip ,then drag and drop JSHDrawerManagerViewController.h and JSHDrawerM
     return YES;
 }
 ```
-**Open Drawer**
+**打开抽屉**
 
-1.First 
+1.第一步导入头文件
 ```
 #import "JSHDrawerManagerViewController.h"
 ``` 
-2.Then invoke
+2.第二步调用
 ```
 [JSHDrawerManagerViewController pushOpenDrawerNotification]; 
 ```
-# [Jian Shu](https://www.jianshu.com/u/5fd033346950)
+# [我的简书](https://www.jianshu.com/u/5fd033346950)
